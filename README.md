@@ -1,2 +1,1 @@
-# hello-universe
-hello universe website
+# hellouniverse.co website
