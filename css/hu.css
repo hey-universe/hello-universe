@@ -1,0 +1,87 @@
+@import "./fonts.css";
+@import "./header.css";
+@import "./footer.css";
+
+* {
+    box-sizing: border-box;
+    text-transform: lowercase;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: "GeistMono", monospace, system-ui, tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #e2e8f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 25px 0 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+a {
+    color: inherit;
+}
+
+a,
+span,
+p,
+textarea {
+    line-height: 1.8rem;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+b {
+    font-weight: 800;
+}
+
+blockquote {
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 1rem 2rem;
+}
+
+#post-wrapper {
+    display: grid;
+    padding: 2rem 2rem 5rem;
+    width: 760px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+#post-meta {
+    padding-bottom: 3rem;
+}
+
+#post-content {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+}

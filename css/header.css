@@ -1,0 +1,42 @@
+#header {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    padding: .5rem 2rem;
+}
+
+#header-logo {
+    font-size: 2rem;
+}
+
+#header-logo a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 800;
+}
+
+#header-nav {
+    display: grid;
+    justify-content: end;
+}
+
+#header-nav-inner-wrapper {
+    align-content: center;
+}
+
+#header-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header-nav a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+#header-nav ul {
+    list-style-type: none;
+}
+
+#header-nav ul li {
+    display: inline;
+}
