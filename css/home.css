@@ -26,6 +26,10 @@ h2 {
 #home-posts {
     padding: 10vh 10vw;
     background-color: #e2e8f0;
+
+    h2 {
+        margin-bottom: 50px;
+    }
 }
 
 .posts-inner-wrapper {
