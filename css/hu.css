@@ -14,8 +14,12 @@ body {
 
 body {
     font-family: "GeistMono", monospace, system-ui, tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #e2e8f0;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
 }
 
 h1,
@@ -54,6 +58,18 @@ textarea {
     line-height: 1.8rem;
 }
 
+ul {
+    padding-left: 14px;
+
+    @media (min-width: 768px) {
+        padding-left: 40px;
+    }
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
 p {
     margin: 0;
     padding-bottom: 20px;
@@ -71,10 +87,14 @@ blockquote {
 
 #post-wrapper {
     display: grid;
-    padding: 2rem 2rem 5rem;
+    padding: 10px 10px 40px;
     width: 760px;
     max-width: 90vw;
     margin: auto;
+
+    @media (min-width: 768px) {
+        padding: 30px 30px 100px;
+    }
 }
 
 #post-meta {
