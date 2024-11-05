@@ -16,9 +16,9 @@ const footer = `
             <a href="https://x.com/hellouniverseco" target="_blank">
                 @hellouniverseco
             </a>
-
+            <br>
             <a href="mailto:hi@hellouniverse.co">
-            hi@hellouniverse.co
+                hi@hellouniverse.co
             </a>
         </div>
 

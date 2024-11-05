@@ -14,12 +14,8 @@ body {
 
 body {
     font-family: "GeistMono", monospace, system-ui, tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     background-color: #e2e8f0;
-
-    @media (min-width: 768px) {
-        font-size: 16px;
-    }
 }
 
 h1,
