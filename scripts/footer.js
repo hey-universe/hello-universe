@@ -4,15 +4,6 @@ const footer = `
     <div id="footer-inner-wrapper">
 
         <div class="footer-column">
-            <h3 id="footer-logo">
-                <a href="/">
-                    hello<br>universe
-                </a>
-            </h3>
-            <p>we do things.</p>
-        </div>
-
-        <div class="footer-column">
             <a href="https://x.com/hellouniverseco" target="_blank">
                 @hellouniverseco
             </a>
@@ -20,6 +11,23 @@ const footer = `
             <a href="mailto:hi@hellouniverse.co">
                 hi@hellouniverse.co
             </a>
+            <br>
+            <a target="_blank" href="https://github.com/hey-universe">
+                gh/hey-universe
+            </a>
+            <br>
+            <a target="_blank" href="https://github.com/matthewlharris">
+                gh/matthewlharris
+            </a>
+        </div>
+
+        <div class="footer-column">
+            <h3 id="footer-logo">
+                <a href="/">
+                    hello<br>universe
+                </a>
+            </h3>
+            <p>we do things.</p>
         </div>
 
         <div class="footer-column">
