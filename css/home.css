@@ -18,13 +18,17 @@ h2 {
     padding: 10vh 10vw;
 }
 
+#hero h2 {
+    font-weight: 400;
+}
+
 .section-inner-wrapper {
     max-width: 600px;
     margin: auto;
 }
 
 #home-posts {
-    padding: 10vh 10vw;
+    padding: 10vh 5vw;
     background-color: #e2e8f0;
 
     h2 {
