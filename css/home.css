@@ -22,7 +22,7 @@ h2 {
     font-weight: 400;
 }
 
-.section-inner-wrapper {
+#home-about .section-inner-wrapper {
     max-width: 600px;
     margin: auto;
 }
@@ -40,6 +40,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 30px;
+    max-width: 1200px;
+    margin: auto;
 
     @media (min-width: 600px) {
         grid-template-columns: repeat(2, 1fr);

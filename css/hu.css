@@ -89,6 +89,11 @@ pre.code {
     cursor: text;
 }
 
+.section-inner-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
 #post-wrapper {
     display: grid;
     padding: 10px 10px 40px;
