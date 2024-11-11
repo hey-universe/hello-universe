@@ -1,7 +1,11 @@
 #header {
     display: grid;
     grid-template-columns: min-content 1fr;
-    padding: .5rem 2rem;
+    padding: 10px 20px;
+
+    @media (min-width: 768px) {
+        padding: 10px 30px;
+    }
 }
 
 #header-logo {

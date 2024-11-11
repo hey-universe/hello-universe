@@ -18,15 +18,90 @@
 
             <div id="post-meta">
                 <h1 id="post-title">the chill web stack</h1>
-                <div id="post-date">tbd 4, 202?</div>
+                <div id="post-date">nov 10, 2024</div>
                 <div id="post-author">matt harris</div>
             </div>
 
             <div id="post-content">
                 
                 <p id="post-description">
-                    coming soon.
+                    i've decided to use the simplest web stack possible for this site and i refer to it as the chill web stack.
                 </p>
+
+                <p>
+                    the site uses only html, css, and vanilla javascript. the only difference between the chill web stack and a normal static html page, is the use of shared html embedded with js.
+                </p>
+
+                <span><b>the basics:</b></span>
+                <br>
+                <span>to create a new page you simply:</span>
+                <ul>
+                    <li>
+                        create a new root folder or sub-folder with the name of the new page. an example article in a sub-folder would be:
+<pre class="code">
+<code>
+/articles/example-article-name/  
+</code>
+</pre>
+                    </li>
+                    <li>add an index.html file inside of that folder and manually copy the contents of the template.html file into it.</li>
+                    <li>write whatever html you want to create the content area and publish. i'm currently using github pages to publish this site.</li>
+                </ul>
+
+                <span><b>the magic:</b></span>
+                <p>
+                    the very simple magic is in the <b>header.js</b> and <b>footer.js</b> files linked into every page. this could have been reduced to 1 file for all of the embedded html but i decided to break it into 2 files.
+                </p>
+
+<pre class="code">
+<code>
+    &lt;footer id="footer">&lt;/footer>
+
+    &lt;script src="../../scripts/header.js">&lt;/script>  
+    &lt;script src="../../scripts/footer.js">&lt;/script>
+&lt;/body>
+
+&lt;/html>
+</code>
+</pre>
+
+                <span>
+                    here's an example of a simplified version of my footer.js file which embeds the footer html on every page:
+                </span>
+                <br>
+
+<pre class="code">
+<code>
+const footerElement = document.pre("footer");
+
+const footer = `
+    &lt;div id="footer-inner-wrapper">
+
+        &lt;div class="footer-column">
+            &lt;a href="https://x.com/hellouniverseco" target="_blank">  
+                @hellouniverseco
+            &lt;/a>
+        &lt;/div>
+
+    &lt;/div>
+`;
+
+footerElement.innerHTML = footer;
+</code>
+</pre>
+
+                <p>
+                    if you're going for brutalist simplicity, you know html basics, and just want to get content out, it couldn't get more chill than the chill web stack. <b>#chillwebstack</b> 
+                </p>
+
+                <span>
+                    you can copy this site to get started:
+                </span>
+                <br>
+                <a target="_blank" href="https://github.com/hey-universe/hello-universe.git">
+                    https://github.com/hey-universe/hello-universe.git
+                </a>
+
             </div>
 
         </section>

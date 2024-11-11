@@ -15,10 +15,6 @@ const footer = `
             <a target="_blank" href="https://github.com/hey-universe">
                 gh/hey-universe
             </a>
-            <br>
-            <a target="_blank" href="https://github.com/matthewlharris">
-                gh/matthewlharris
-            </a>
         </div>
 
         <div class="footer-column">
