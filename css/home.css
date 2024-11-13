@@ -2,6 +2,7 @@
     display: grid;
     padding: 5vh 10vw 12vh;
     justify-content: center;
+    justify-items: center;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h2 {
 
 #hero h2 {
     font-weight: 400;
+    text-align: center;
 }
 
 #home-about .section-inner-wrapper {
