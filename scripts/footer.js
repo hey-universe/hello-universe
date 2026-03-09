@@ -4,10 +4,6 @@ const footer = `
     <div id="footer-inner-wrapper">
 
         <div class="footer-column">
-            <a href="mailto:hi@hellouniverse.co">
-                hi@hellouniverse.co
-            </a>
-            <br>
             <a target="_blank" href="https://github.com/hey-universe">
                 gh/hey-universe
             </a>
