@@ -77,6 +77,10 @@ b {
     font-weight: 800;
 }
 
+hr {
+    margin-bottom: 25px;
+}
+
 blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.1);
     margin: 0;
